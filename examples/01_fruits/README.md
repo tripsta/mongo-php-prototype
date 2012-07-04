@@ -6,11 +6,8 @@ Providing an easy to follow installation guide, and examples on basic features o
 ********************************************************************************
 ********************************************************************************
 
-Installation Mongo
-==================
-
-Installing Mongo DB Server
---------------------------
+Installing Mongo DB
+===================
 Note: Instruction on the official site http://docs.mongodb.org/manual/tutorial/install-mongodb-on-debian-or-ubuntu-linux/ are pretty easy to follow.
 (on Ubuntu)
 
@@ -31,19 +28,6 @@ you should see something like this
 >MongoDB shell version: 2.0.6
 
 >connecting to: test
-
-
-Installing MongoDB PECL Driver
---------------------------------
-Note: Instructions in the official site http://www.mongodb.org/display/DOCS/PHP+Language+Center
-     sudo pecl install mongo
-add the  following line 
-
-> extension=mongo.so
-
-in /etc/php5/conf.d/mongodb.ini
-
-
 
 Resources
 =========
